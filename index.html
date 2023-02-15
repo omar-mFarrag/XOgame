@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO game v1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="xo">
+        <div id="try"></div>
+        <div class="soccor">
+            <div>
+                X
+                <span id="x"></span>
+            </div>
+            <div style="text-align: center; font-size: 26px; line-height: 1.6; display: inline;">
+                <span style="color: orange;">In</span>  Friday <br>
+                03/02/2023<br>
+            </div>
+            <div>
+                O
+                <Span id="o"></Span>
+            </div>
+        </div>
+        <div class="dash">
+            <h2 id="dash">X's Turn</h2>
+        </div>
+        <div id="containerr" class="container">
+            <div onclick="play1();"class="box" id="1"></div>
+            <div onclick="play2()" class="box" id="2"></div>
+            <div onclick="play3()" class="box" id="3"></div>
+            <div onclick="play4()" class="box" id="4"></div>
+            <div onclick="play5()" class="box" id="5"></div>
+            <div onclick="play6()" class="box" id="6"></div>
+            <div onclick="play7()" class="box" id="7"></div>
+            <div onclick="play8()" class="box" id="8"></div>
+            <div onclick="play9()" class="box" id="9"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
